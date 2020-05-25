@@ -9,7 +9,7 @@ def newfood():
         cord = [random.randint(2,34), random.randint(2,34)]
     else:
         cord = [random.randint(1,35), random.randint(1,35)]
-    if cord in array:
+    if cord in snake:
         # if the food generates on the snakes body, return another food position
         return newfood()
     else:
